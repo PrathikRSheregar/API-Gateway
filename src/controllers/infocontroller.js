@@ -1,9 +1,14 @@
 const { StatusCodes } = require('http-status-codes');
 
 const info = (req, res) => {
-    return res.status(StatusCodes.OK).send("api is alive");
+    return res.status(StatusCodes.OK).json({
+        success: true,
+        message: 'message API is live',
+        error: {},
+        data: {},
+    });
 };
 
 module.exports = {
     info
-};
+}

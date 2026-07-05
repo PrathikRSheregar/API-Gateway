@@ -1,5 +1,6 @@
 module.exports=
 {
-    airplanerepo=require('./airplanerepo'),
-    crudrepo=require('./crudrepo')
+    CrudRepository:require('./crud-repository'),
+    UserRepository:require('./user-repository'),
+    RoleRepository:require('./role-repository')
 }

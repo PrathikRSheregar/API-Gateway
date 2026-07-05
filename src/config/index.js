@@ -1,5 +1,5 @@
 module.exports=
 {
-    serverconfig:require('./server-config'),
+    ServerConfig:require('./server-config'),
     logger:require('./logger-config')
 }

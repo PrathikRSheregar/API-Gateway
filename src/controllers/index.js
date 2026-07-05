@@ -1,5 +1,5 @@
-const { info } = require('./infocontroller');
-
 module.exports = {
-    info
+    infoController: require('./infocontroller'),
+    UserController: require('./user-controller')
+
 };

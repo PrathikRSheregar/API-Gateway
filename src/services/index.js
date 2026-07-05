@@ -1,5 +1,3 @@
-const airplaneService = require('./airplaneservice');
-
 module.exports = {
-    airplaneService
+    UserService:require('./user-service')
 };
