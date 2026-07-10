@@ -1,1 +1,0 @@
-Basic setup of a node js project 
